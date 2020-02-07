@@ -6,15 +6,18 @@
 */
 int main(void)
 {
-	char alpha;
-	int num;
+	int n;
+	
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+		if (n < '9')
+		{
+		putchar(',');
+		putchar(' ')
+		}
 
-	for (num = '0'; num <= '9'; num++)
-		putchar(num);
-
-	for (alpha = 'a'; alpha <= 'f'; alpha++)
-		putchar(alpha);
-	putchar('\n');
+	}	
 
 	return (0);
 }
